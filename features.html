@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="features.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Features</title>
+        <style>
+        </style>
+    </head>
+<body>
+    <header >
+        <div class="logo">
+            <span>St</span>eazy
+        </div>
+        <div class="menu">
+            <!--Home, Features, About, Contact, Signup, Login-->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="index.html">Home</a>
+                  <a href="index.html">Features</a>
+                  <a href="#">About</a>
+                  <a href="#">Contact</a>
+                  <a href="#">Signup</a>
+                </div>
+              </div>
+              <img src="images/Menu.png" onclick="openNav()">
+              <script>
+                function openNav() {
+                  document.getElementById("myNav").style.height = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("myNav").style.height = "0%";
+                }
+                </script>
+        </div>
+    </header>
+
+    <div id="Features">
+        <div class="topl">
+            <div class="topl-t">
+                FEATURES
+            </div>
+            <div class="topl-l">
+                <hr>
+            </div>
+        </div>
+        <div class="contl">
+            <div class="contl-i">
+                <img src="images/notes 1.png">
+            </div>
+            <div class="contl-t">
+                <h1>Study Resources</h1>
+                <p>Steazy, your go-to online learning platform, is committed to revolutionizing the educational experience with a suite of dynamic features. Our extensive study resources encompass a curated library of materials ranging from textbooks to interactive multimedia modules, ensuring a comprehensive and engaging learning journey. Tailoring personalized learning paths, Steazy evaluates individual strengths and weaknesses to offer adaptive study plans, fostering a more effective and efficient learning experience.</p>
+            </div>
+        </div>
+        <div class="contl">
+            <div class="contl-t">
+                <h1>Productive Learning</h1>
+                <p>Productive learning is at the core of Steazy's mission. Our platform integrates interactive study modules, encouraging active engagement through quizzes, hands-on activities, and collaborative learning tools. A user-friendly interface facilitates seamless navigation, while progress tracking and goal-setting features empower learners to monitor their advancements and stay motivated throughout their educational pursuits.</p>
+            </div>
+            <div class="contl-i">
+                <img src="images/productive learning 1.png">
+            </div>
+        </div>
+        <div class="contl">
+            <div class="contl-i">
+                <img src="images/updates 1.png">
+            </div>
+            <div class="contl-t">
+                <h1>Regular Updates</h1>
+                <p>At Steazy, we understand the importance of staying current in a rapidly evolving educational landscape. That's why we provide regular updates to our study resources, ensuring that users have access to the latest information and methodologies. From incorporating the newest research findings to adapting to changes in curriculum, Steazy is dedicated to keeping its users at the forefront of knowledge.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
